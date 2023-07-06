@@ -6,15 +6,15 @@ management:
       enabled: true
     env:
       enabled: true
-#    git:
-#      mode: full #git ??? ??
+  #    git:
+  #      mode: full #git ??? ??
   server:
     port: 8080
   endpoint:
     shutdown:
       enabled: true # ????? ???
     health:
-#      show-details: always  # ??? ??
+      #      show-details: always  # ??? ??
       show-components: always # ??? ??
   endpoints:
     web:
@@ -28,7 +28,3 @@ info: # application ?? ???? ????? info ?? ?????? ?? ??.
 logging:
   level:
     hello.controller: debug
-server:
-  tomcat:
-    mbeanregistry:
-      enabled: true
